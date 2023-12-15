@@ -51,6 +51,7 @@ dependencies {
 
     // FirebaseUI for Cloud Firestore
     implementation 'com.firebaseui:firebase-ui-firestore:7.1.0'
+    implementation 'com.firebaseui:firebase-ui-auth:4.3.2'
 
     //ExoPlayer
     implementation 'com.google.android.exoplayer:exoplayer:2.17.1'
