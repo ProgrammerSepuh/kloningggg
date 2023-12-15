@@ -16,17 +16,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".chat.ChatActivity"
+            android:name="com.fpcircula.catchy.chat.ChatActivity"
             android:exported="true" />
         <activity
-            android:name=".chat.ChatUsersActivity"
+            android:name="com.fpcircula.catchy.chat.ChatUsersActivity"
             android:exported="true" />
         <activity
-            android:name=".ViewStoryActivity"
+            android:name="com.fpcircula.catchy.ViewStoryActivity"
             android:exported="true" />
-        <activity android:name=".StoryAddActivity" />
+        <activity android:name="com.fpcircula.catchy.StoryAddActivity" />
         <activity
-            android:name=".PostViewActivity"
+            android:name="com.fpcircula.catchy.PostViewActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -39,9 +39,9 @@
                     android:scheme="https" />
             </intent-filter>
         </activity>
-        <activity android:name=".ReplacerActivity" />
+        <activity android:name="com.fpcircula.catchy.ReplacerActivity" />
         <activity
-            android:name=".SplashActivity"
+            android:name="com.fpcircula.catchy.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -50,7 +50,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.fpcircula.catchy.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

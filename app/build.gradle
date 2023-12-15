@@ -2,11 +2,14 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
 
 android {
+    lint {
+        baseline = file("lint-baseline.xml")
+    }
     compileSdkVersion 32
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.marsad.catchy"
+        applicationId "com.fpcircula.catchy"
         minSdkVersion 19
         targetSdkVersion 32
         multiDexEnabled true

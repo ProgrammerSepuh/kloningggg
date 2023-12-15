@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/black"
-    tools:context=".ViewStoryActivity">
+    tools:context="com.fpcircula.catchy.ViewStoryActivity">
 
     <com.google.android.exoplayer2.ui.PlayerView
         android:id="@+id/videoView"
